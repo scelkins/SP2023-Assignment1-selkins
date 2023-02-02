@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  background-color: grey; 
 }
 
 @media (min-width: 768px) {
@@ -15,14 +15,26 @@ html {
 
 body {
   margin-bottom: 60px;
+  display: grid;
 }
 
 .centered {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-self: center;
+}
+
+.centered div {
+    align-self: center;
+}
+
+.centered h1, h5, p, li {
     text-align: center;
+}
+
+.centered iframe {
+    align-self: center;
 }
 
 #CoverArt {
@@ -31,4 +43,10 @@ body {
     margin-right: auto;
     width: 60%;
     border-radius: 20%;
+}
+
+#Summary {
+    background-color: dimgray;
+    border-radius: 10%;
+    padding: 10px;
 }
