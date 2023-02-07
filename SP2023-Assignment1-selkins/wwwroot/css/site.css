@@ -43,6 +43,13 @@ body {
     margin-top: 2rem;
 }
 
+#Title {
+    background-color: #303030;
+    border-radius: 10%;
+    padding: 1rem;
+    align-self: center;
+}
+
 #CoverArt {
     display: block;
     margin-left: auto;
@@ -60,6 +67,17 @@ body {
 #Summary {
     background-color: #303030;
     border-radius: 10%;
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    width: 30rem;
+    align-self: center;
+}
+
+#Actors {
+    background-color: #303030;
+    border-radius: 10%;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    width: 10rem;
+    align-self: center;
 }
