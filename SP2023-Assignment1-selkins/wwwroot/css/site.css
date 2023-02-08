@@ -1,6 +1,9 @@
 html {
-  background-color: #1f1f1f;
-  color: white;
+    position: relative;
+    min-height: 100%;
+    background-color: #1f1f1f;
+    color: white;
+    background-image: url('https://static.hbo.com/the-white-lotus-ka-1920.jpg');
 }
 
 @media (min-width: 768px) {
@@ -9,14 +12,10 @@ html {
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
-  display: grid;
+    display: grid;
+    backdrop-filter: blur(10px);
+    height: 100%;
 }
 
 .centered {
